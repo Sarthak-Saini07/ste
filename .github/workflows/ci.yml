@@ -6,11 +6,10 @@ on:
       - main
   workflow_dispatch:
 
-jobs:
-  
 permission:
   contents: read
 
+jobs:
   build:
     runs-on: self-hosted
     steps:
