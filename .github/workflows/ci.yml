@@ -8,8 +8,8 @@ on:
 
 jobs:
   
-  permission:
-    contents: read
+permission:
+  contents: read
 
   build:
     runs-on: self-hosted
